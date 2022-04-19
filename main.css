@@ -1,0 +1,50 @@
+.cell {
+    display: grid;
+    
+    height: 25px;
+    width: 25px;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+
+.button {
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.canvas {
+    grid-template-columns: auto length 25px;
+    background-color: gray;
+    height: 500px;
+    width: 750px;
+    gap: 1px
+}
+
+.pallet {
+    background-color: silver;
+    height: 200px;
+    width: 750px;
+    float: left;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
